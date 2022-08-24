@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav class="navBar">
+                <!-- <img src="logo.png" alt="Portfolio" class ="logo"> -->
+                <button class="logoBtn">Portfolio</button>
+                <ul id="sideMenu">
+                    <li class="item"><a href="/">Home</a></li>
+                    <li class="item"><a href="/about.html">About</a></li>
+                    <li class="item"><a href="/services.html">Services</a></li>
+                    <li class="item"><a href="/portfolio.html">Portfolio</a></li>
+                    <li class="item"><a href="/contact.html">Contact Me</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <img src="moon.png" id="icon">
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi I'm <span>Ankit</span><br> Choudhary</h1>
+            </div>
+            <div class="imagBox">
+                <img src="sideimg.png">
+            </div>
+            <div class="social">
+                <a href=""><i class="fab fa-linkedin"></i></a>
+                <a href=""><i class="fab fa-instagram-square"></i></a>
+                <a href=""><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </div> 
+    <div class="copyright">
+        <p>Copyright © Ankit. Made by Ankit Choudhary with <i class="fas fa-heart"></i></p>
+    </div>
+    <script src="script.js"></script>   
+</body>
+</html>

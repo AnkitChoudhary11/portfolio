@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/c5b0188544.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav class="navBar">
+                <!-- <img src="logo.png" alt="Portfolio" class ="logo"> -->
+                <button class="logoBtn">Portfolio</button>
+                <ul id="sideMenu">
+                    <li class="item"><a href="/">Home</a></li>
+                    <li class="item"><a href="/about.html">About</a></li>
+                    <li class="item"><a href="/services.html">Services</a></li>
+                    <li class="item"><a href="/portfolio.html">Portfolio</a></li>
+                    <li class="item"><a href="/contact.html">Contact Me</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <img src="moon.png" id="icon">
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="subAbout">My Services</h1>
+            <div class="servicesList">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptatibus perferendis
+                        accusantium. At, vitae magnam provident reiciendis architecto unde fugiat labore officia
+                        similique autem amet quae animi maxime voluptatibus ullam!</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptatibus perferendis
+                        accusantium. At, vitae magnam provident reiciendis architecto unde fugiat labore officia
+                        similique autem amet quae animi maxime voluptatibus ullam!</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptatibus perferendis
+                        accusantium. At, vitae magnam provident reiciendis architecto unde fugiat labore officia
+                        similique autem amet quae animi maxime voluptatibus ullam!</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Ankit. Made by Ankit Choudhary with <i class="fas fa-heart"></i></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
